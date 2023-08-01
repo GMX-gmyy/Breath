@@ -59,6 +59,13 @@ class BBreatheViewController: BBaseViewController {
     private var timeIndex: Int = 0
     private var isStop: Bool = true
     
+    private lazy var privacyButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.setBackgroundImage(UIImage(named: "privacy"), for: .normal)
+        button.addTarget(self, action: #selector(privacyEvent), for: .touchUpInside)
+        return button
+    }()
+    
     private lazy var aniLayerView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white.withAlphaComponent(0.6)
@@ -150,6 +157,13 @@ class BBreatheViewController: BBaseViewController {
     private func setupUI() {
         view.backgroundColor = .white
         
+        view.addSubview(privacyButton)
+        privacyButton.snp.makeConstraints { make in
+            make.top.equalTo(kNavigationBarHeight)
+            make.right.equalTo(-24)
+            make.width.height.equalTo(24)
+        }
+        
         view.addSubview(aniLayerView)
         aniLayerView.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
@@ -222,6 +236,11 @@ class BBreatheViewController: BBaseViewController {
         } else {
             stopBreath()
         }
+    }
+    
+    @objc func privacyEvent() {
+        let vc = BPrivacyViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     private func breathAni() {

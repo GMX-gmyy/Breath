@@ -21,11 +21,12 @@
 		64873F0A2A7756CB00A27575 /* BCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F092A7756CB00A27575 /* BCommon.swift */; };
 		64873F0C2A775D8000A27575 /* BBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F0B2A775D8000A27575 /* BBaseViewController.swift */; };
 		64873F1C2A78C89D00A27575 /* breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64873F1B2A78C89D00A27575 /* breath.mp3 */; };
+		64873F1E2A791F5900A27575 /* BPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F1D2A791F5900A27575 /* BPrivacyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40B3CCF421695354887BE7C1 /* Pods-Breath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breath.release.xcconfig"; path = "Target Support Files/Pods-Breath/Pods-Breath.release.xcconfig"; sourceTree = "<group>"; };
-		643F81AA2A7693B50064EF07 /* Breath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643F81AA2A7693B50064EF07 /* LifeAndBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeAndBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643F81AD2A7693B50064EF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		643F81AF2A7693B50064EF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		643F81B42A7693B50064EF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		64873F092A7756CB00A27575 /* BCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCommon.swift; sourceTree = "<group>"; };
 		64873F0B2A775D8000A27575 /* BBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBaseViewController.swift; sourceTree = "<group>"; };
 		64873F1B2A78C89D00A27575 /* breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breath.mp3; sourceTree = "<group>"; };
+		64873F1D2A791F5900A27575 /* BPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPrivacyViewController.swift; sourceTree = "<group>"; };
 		6AC295C189E2A1E7DDF9BFC5 /* Pods_Breath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E032260AA4E2435888B7CA1D /* Pods-Breath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breath.debug.xcconfig"; path = "Target Support Files/Pods-Breath/Pods-Breath.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +79,7 @@
 		643F81AB2A7693B50064EF07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				643F81AA2A7693B50064EF07 /* Breath.app */,
+				643F81AA2A7693B50064EF07 /* LifeAndBreathe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				643F81CB2A76AA0C0064EF07 /* BSceneViewController.swift */,
+				64873F1D2A791F5900A27575 /* BPrivacyViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 			);
 			name = Breath;
 			productName = Breath;
-			productReference = 643F81AA2A7693B50064EF07 /* Breath.app */;
+			productReference = 643F81AA2A7693B50064EF07 /* LifeAndBreathe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -266,6 +269,7 @@
 				64873F0A2A7756CB00A27575 /* BCommon.swift in Sources */,
 				64873F0C2A775D8000A27575 /* BBaseViewController.swift in Sources */,
 				64873F082A77569000A27575 /* BToolsManager.swift in Sources */,
+				64873F1E2A791F5900A27575 /* BPrivacyViewController.swift in Sources */,
 				643F81B02A7693B50064EF07 /* SceneDelegate.swift in Sources */,
 				643F81C62A76A8B10064EF07 /* BBaseNavigationController.swift in Sources */,
 				643F81C82A76A9770064EF07 /* BBaseTabBarController.swift in Sources */,
@@ -414,13 +418,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSupporttingFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LifeAndBreathe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -429,9 +435,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.Breath;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.LifeAndBreathe;
+				PRODUCT_NAME = LifeAndBreathe;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -447,13 +453,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSupporttingFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LifeAndBreathe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -462,9 +470,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.Breath;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.LifeAndBreathe;
+				PRODUCT_NAME = LifeAndBreathe;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

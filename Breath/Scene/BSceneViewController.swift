@@ -70,13 +70,14 @@ class BSceneViewController: BBaseViewController {
     
     private func setupUI() {
         
+        view.backgroundColor = UIColor(patternImage: (UIImage(named: "breathBg")?.resizableImage(withCapInsets: .zero, resizingMode: .stretch))!)
+        
         view.addSubview(sceneCollectionView)
         sceneCollectionView.snp.makeConstraints { make in
             make.bottom.equalTo(-kTabbarHeight)
             make.left.right.equalToSuperview()
             make.top.equalTo(kNavigationBarHeight + 100)
         }
-        
     }
 }
 
@@ -120,7 +121,7 @@ class SceneCell: UICollectionViewCell {
     
     private func setupUI() {
         
-        contentView.backgroundColor = .red
+        contentView.backgroundColor = .white
         contentView.addSubview(bgImageView)
         bgImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()

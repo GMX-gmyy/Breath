@@ -15,4 +15,15 @@ class BBaseNavigationController: UINavigationController, UIGestureRecognizerDele
         
         interactivePopGestureRecognizer?.delegate = self
     }
+    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if children.count >= 1 {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        super.pushViewController(viewController, animated: animated)
+    }
+    
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        return children.count != 1
+    }
 }

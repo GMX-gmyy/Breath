@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.backgroundColor = .white
         window?.rootViewController = BBaseTabBarController()
         window?.makeKeyAndVisible()
+        Thread.sleep(forTimeInterval: 3)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
