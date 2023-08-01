@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF41B351D6862A38CA3B393 /* Pods_Breath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC295C189E2A1E7DDF9BFC5 /* Pods_Breath.framework */; };
 		643F81AE2A7693B50064EF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81AD2A7693B50064EF07 /* AppDelegate.swift */; };
 		643F81B02A7693B50064EF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81AF2A7693B50064EF07 /* SceneDelegate.swift */; };
 		643F81B52A7693B50064EF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F81B32A7693B50064EF07 /* Main.storyboard */; };
 		643F81B72A7693B60064EF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643F81B62A7693B60064EF07 /* Assets.xcassets */; };
 		643F81BA2A7693B60064EF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643F81B82A7693B60064EF07 /* LaunchScreen.storyboard */; };
+		643F81C62A76A8B10064EF07 /* BBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81C52A76A8B10064EF07 /* BBaseNavigationController.swift */; };
+		643F81C82A76A9770064EF07 /* BBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81C72A76A9770064EF07 /* BBaseTabBarController.swift */; };
+		643F81CA2A76A9D80064EF07 /* BBreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81C92A76A9D80064EF07 /* BBreatheViewController.swift */; };
+		643F81CC2A76AA0C0064EF07 /* BSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F81CB2A76AA0C0064EF07 /* BSceneViewController.swift */; };
+		64873F082A77569000A27575 /* BToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F072A77569000A27575 /* BToolsManager.swift */; };
+		64873F0A2A7756CB00A27575 /* BCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F092A7756CB00A27575 /* BCommon.swift */; };
+		64873F0C2A775D8000A27575 /* BBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64873F0B2A775D8000A27575 /* BBaseViewController.swift */; };
+		64873F1C2A78C89D00A27575 /* breath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64873F1B2A78C89D00A27575 /* breath.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40B3CCF421695354887BE7C1 /* Pods-Breath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breath.release.xcconfig"; path = "Target Support Files/Pods-Breath/Pods-Breath.release.xcconfig"; sourceTree = "<group>"; };
 		643F81AA2A7693B50064EF07 /* Breath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643F81AD2A7693B50064EF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		643F81AF2A7693B50064EF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		643F81B62A7693B60064EF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		643F81B92A7693B60064EF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		643F81BB2A7693B60064EF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643F81C52A76A8B10064EF07 /* BBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBaseNavigationController.swift; sourceTree = "<group>"; };
+		643F81C72A76A9770064EF07 /* BBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBaseTabBarController.swift; sourceTree = "<group>"; };
+		643F81C92A76A9D80064EF07 /* BBreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBreatheViewController.swift; sourceTree = "<group>"; };
+		643F81CB2A76AA0C0064EF07 /* BSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSceneViewController.swift; sourceTree = "<group>"; };
+		64873F072A77569000A27575 /* BToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BToolsManager.swift; sourceTree = "<group>"; };
+		64873F092A7756CB00A27575 /* BCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCommon.swift; sourceTree = "<group>"; };
+		64873F0B2A775D8000A27575 /* BBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBaseViewController.swift; sourceTree = "<group>"; };
+		64873F1B2A78C89D00A27575 /* breath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breath.mp3; sourceTree = "<group>"; };
+		6AC295C189E2A1E7DDF9BFC5 /* Pods_Breath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E032260AA4E2435888B7CA1D /* Pods-Breath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breath.debug.xcconfig"; path = "Target Support Files/Pods-Breath/Pods-Breath.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF41B351D6862A38CA3B393 /* Pods_Breath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E4076C3552DF778CE37C944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC295C189E2A1E7DDF9BFC5 /* Pods_Breath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		643F81A12A7693B50064EF07 = {
 			isa = PBXGroup;
 			children = (
 				643F81AC2A7693B50064EF07 /* Breath */,
 				643F81AB2A7693B50064EF07 /* Products */,
+				B8F05EA023D9FC3D7D1E06F5 /* Pods */,
+				5E4076C3552DF778CE37C944 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,10 +98,13 @@
 			children = (
 				643F81AD2A7693B50064EF07 /* AppDelegate.swift */,
 				643F81AF2A7693B50064EF07 /* SceneDelegate.swift */,
+				64873F072A77569000A27575 /* BToolsManager.swift */,
+				64873F092A7756CB00A27575 /* BCommon.swift */,
 				643F81B32A7693B50064EF07 /* Main.storyboard */,
 				643F81B62A7693B60064EF07 /* Assets.xcassets */,
 				643F81B82A7693B60064EF07 /* LaunchScreen.storyboard */,
 				643F81BB2A7693B60064EF07 /* Info.plist */,
+				64873F1B2A78C89D00A27575 /* breath.mp3 */,
 			);
 			path = BSupporttingFiles;
 			sourceTree = "<group>";
@@ -78,6 +112,7 @@
 		643F81C22A76A4600064EF07 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				643F81CB2A76AA0C0064EF07 /* BSceneViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -85,6 +120,7 @@
 		643F81C32A76A48A0064EF07 /* Breathe */ = {
 			isa = PBXGroup;
 			children = (
+				643F81C92A76A9D80064EF07 /* BBreatheViewController.swift */,
 			);
 			path = Breathe;
 			sourceTree = "<group>";
@@ -92,8 +128,20 @@
 		643F81C42A76A49C0064EF07 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				643F81C52A76A8B10064EF07 /* BBaseNavigationController.swift */,
+				643F81C72A76A9770064EF07 /* BBaseTabBarController.swift */,
+				64873F0B2A775D8000A27575 /* BBaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		B8F05EA023D9FC3D7D1E06F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E032260AA4E2435888B7CA1D /* Pods-Breath.debug.xcconfig */,
+				40B3CCF421695354887BE7C1 /* Pods-Breath.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 643F81BE2A7693B60064EF07 /* Build configuration list for PBXNativeTarget "Breath" */;
 			buildPhases = (
+				69080A5A4AD49A48586BB3E0 /* [CP] Check Pods Manifest.lock */,
 				643F81A62A7693B50064EF07 /* Sources */,
 				643F81A72A7693B50064EF07 /* Frameworks */,
 				643F81A82A7693B50064EF07 /* Resources */,
+				96E171A6E0C23D93266077FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,19 +206,69 @@
 			files = (
 				643F81BA2A7693B60064EF07 /* LaunchScreen.storyboard in Resources */,
 				643F81B72A7693B60064EF07 /* Assets.xcassets in Resources */,
+				64873F1C2A78C89D00A27575 /* breath.mp3 in Resources */,
 				643F81B52A7693B50064EF07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69080A5A4AD49A48586BB3E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E171A6E0C23D93266077FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Breath/Pods-Breath-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Breath/Pods-Breath-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Breath/Pods-Breath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		643F81A62A7693B50064EF07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643F81CC2A76AA0C0064EF07 /* BSceneViewController.swift in Sources */,
+				643F81CA2A76A9D80064EF07 /* BBreatheViewController.swift in Sources */,
 				643F81AE2A7693B50064EF07 /* AppDelegate.swift in Sources */,
+				64873F0A2A7756CB00A27575 /* BCommon.swift in Sources */,
+				64873F0C2A775D8000A27575 /* BBaseViewController.swift in Sources */,
+				64873F082A77569000A27575 /* BToolsManager.swift in Sources */,
 				643F81B02A7693B50064EF07 /* SceneDelegate.swift in Sources */,
+				643F81C62A76A8B10064EF07 /* BBaseNavigationController.swift in Sources */,
+				643F81C82A76A9770064EF07 /* BBaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +410,7 @@
 		};
 		643F81BF2A7693B60064EF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E032260AA4E2435888B7CA1D /* Pods-Breath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSuporttingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSupporttingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,6 +443,7 @@
 		};
 		643F81C02A7693B60064EF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B3CCF421695354887BE7C1 /* Pods-Breath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,7 +451,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSuporttingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Breath/BSupporttingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
